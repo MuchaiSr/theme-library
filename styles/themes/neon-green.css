@@ -1,0 +1,43 @@
+/* 
+  neon-green.css
+  Style by Muchai Collins
+  Theme: Retro Terminal / Earthy Hacker / IBM Plex Mono
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+  background-color: #fefbd8;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #111;
+  padding: 32px;
+  line-height: 1.4;
+}
+
+button {
+  background-color: #3b7d3b;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'IBM Plex Mono', monospace;
+  border: none;
+  padding: 16px 32px;
+  margin-top: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px #111;
+  margin-right: 8px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2f662f;
+}
+
+a {
+  color: #2f662f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
