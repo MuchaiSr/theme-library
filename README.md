@@ -6,6 +6,8 @@ A personal collection of CSS themes inspired by retro aesthetics, terminals, and
 
 - **neon-green.css** — Inspired by retro terminals with IBM Plex Mono and earthy greens.
 
+- **arcade-purple.css** — A vibrant, retro-inspired theme with a bold purple hue, perfect for creating a nostalgic, arcade-style vibe. Featuring sleek, pixel-inspired elements and IBM Plex Mono for a touch of old-school gaming nostalgia.
+
 ## How to Use
 
 Link the stylesheet in your HTML:

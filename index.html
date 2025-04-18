@@ -2,14 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Retro Styled Page</title>
-  <link rel="stylesheet" href="./styles/themes/neon-green.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Theme Switcher</title>
+  <link id="theme-link" rel="stylesheet" href="./styles/themes/neon-green.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to the Grid</h1>
-    <p>This is your custom retro neon green theme.</p>
-    <button>Click Me</button>
-  </div>
+  <h1>Style Showcase</h1>
+  <p>Select a theme from the dropdown to preview it:</p>
+
+  <label for="theme-select">Choose a Theme:</label>
+  <select id="theme-select">
+    <option value="neon-green">Neon Green</option>
+    <option value="arcade-purple">Arcade Purple</option>
+    <!-- Add more themes as needed -->
+  </select>
+
+  <button>Sample Button</button>
+  <p>Check out the <a href="#">link effect</a> too.</p>
+
+  <script src="./theme-switcher.js"></script>
 </body>
 </html>

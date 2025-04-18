@@ -1,0 +1,44 @@
+/*
+  arcade-purple.css
+  Style by Muchai Collins
+  Theme: Neon Arcade / Pixel Night / Vaporwave Vibes
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #1a001f;
+  color: #ff00ff;
+  font-family: 'Press Start 2P', cursive;
+  padding: 32px;
+  line-height: 1.6;
+  text-shadow: 0 0 2px #ff00ff, 0 0 4px #cc00cc;
+}
+
+button {
+  background-color: #330066;
+  color: #ffccff;
+  font-family: 'Press Start 2P', cursive;
+  border: 2px solid #ff00ff;
+  padding: 12px 24px;
+  margin: 16px 8px 0 0;
+  cursor: pointer;
+  box-shadow: 0 0 8px #ff00ff;
+  transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #ff66ff;
+  background-color: #660099;
+}
+
+a {
+  color: #cc66ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
